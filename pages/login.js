@@ -6,7 +6,7 @@ export default function LoginPage({providers}){
         <div className="flex items-center justify-center h-screen">
             {providers && Object.values(providers).map(provider => (
                 <div>
-                    <button>Sign in with {provider.name}</button>
+                    <button className="">Sign in with {provider.name}</button>
                 </div>
             ))}
            
